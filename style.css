@@ -35,12 +35,14 @@ header h1 {
    padding: 1.6em 0em 0.6em ;
    font-size: 1.3em;
    font-weight: bold;
+   margin-bottom: 0.8em;
    
 }
 
 .signup p {
    color: #C0C0C0;
    line-height: 1.4em;
+   font-size: 1em;
 }
 
 hr {
@@ -64,6 +66,8 @@ legend {
    color: black;
 }
 
+
+
 .label {
    display: block;
    font-size: 0.9em;
@@ -81,6 +85,7 @@ legend {
    border-color: transparent;
    outline: none;
    background-color: rgb(238, 238, 238);
+   transition: height 1s ease-in-out;
 }
 
 input::placeholder {
@@ -91,6 +96,10 @@ input::placeholder {
    font-size: 0.9em;
 }
 
+input:focus {
+   border: solid rgb(65, 175, 166) 1px;
+   height: 5em;
+}
 .zip {
    width: 50%;
 }
@@ -102,22 +111,83 @@ input::placeholder {
 /* Newsletter  */
 
 input[type=checkbox] {
-   margin-bottom: 1.5em;
+   margin-top: 1.5em;
 }
 
 input[type=radio] {
-   margin-bottom: 1.4em;
+   margin-top: 1.5em;
 }
+
+
 
 p {
-   margin-bottom: 1.4em;
+   margin-top: -1em;
+   font-size: 0.9em;
 }
 
+textarea {
+   width: 100%;
+   height: 9em;
+   background: rgb(238, 238, 238);
+   border-radius: 3px;
+   border: transparent;
+   margin-bottom: 1em;
+}
 
 button {
   display: block;
   width: 90%;
-  height: 5em;
+  height: 3.5em;
   margin: 0 auto;
-  background: blue;
+  background: rgb(65, 175, 166);
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+footer {
+   text-align: center;
+   color: rgb(189, 189, 189);
+   font-style: italic;
+   font-size: 0.9em;
+   margin-bottom: 15em;
+}
+
+@media (min-width: 768px) {
+
+   form {
+      width: 60%;
+      margin: 0 auto;
+   }
+
+   header {
+      width: 100vw;
+      align-items: center;
+   }
+
+   .form {
+      width: 60%;
+   }
+
+   fieldset {
+      padding: 1em 0em;
+   
+   }
+
+   button {
+      width: 100%;
+   }
+
+   hr {
+      width: 100%;
+   }
+
+   .signup {
+      width: 60%
+   }
+
+
+   
 }

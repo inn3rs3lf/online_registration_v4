@@ -7,24 +7,25 @@
 </head>
 <body>
 
+   <header>
+      <h1>The code review</h1>
+   </header>
+      
+   <div class="signup">
+      <h2>Signup for our newsletter</h2>
+      <p>Get the latest news on how your code is doing right in your inbox</p>
+   </div>
+      
    <form action="">
 
-      <header>
-      <h1>The code review</h1>
-      </header>
-      
-      <div class="signup">
-         <h2>Signup for our newsletter</h2>
-         <p>Get the latest news on how your code is doing right in your inbox</p>
-      </div>
-      
       <hr>
-
       <fieldset>
          <legend>Contact Information</legend>
 
+         <div class="information">
          <label for="fullname" class="label">Full Name</label> 
          <input type="text" id="fullname" class="label-input" required placeholder="Required"> 
+         </div>
 
          <label for="email" class="label">Email Address</label> 
          <input type="email" id="email" class="label-input" required placeholder="Required"> 
@@ -39,92 +40,63 @@
          <input type="text"  id="city" class="label-input"> 
 
          <label for="state" class="label">State</label> 
-         <select id="state" name="state" class="label-input">
+          <select id="state" name="state" class="label-input">
             <option value="" class="select" selected disabled>Choose State</option>
             <option value="gauteng">Gauteng</option>
             <option value="western_cape">Western Cape</option>
             <option value="kzn">KZN</option>
             <option value="limpopo">Limpopo</option>
-         </select> <br>
+            </select> <br>
 
-         <label for="zip" class="label">Zip Code</label> 
-         <input type="text" id="zip" class="label-input zip"> 
+            <label for="zip" class="label">Zip Code</label> 
+            <input type="text" id="zip" class="label-input zip"> 
 
       </fieldset>
 
       <hr>
 
       <fieldset>
+
          <legend>Newsletter</legend>
-         <fieldset>
-            <legend>Slect the newsletters you would like to recieve</legend>
 
-               <input type="checkbox" id="html" value="html">
-               <label for="html">HTML News</label><br>
+          <fieldset>
 
-               <input type="checkbox" id="css" value="css">
-               <label for="css">CSS News</label><br>
+            <p>Slect the newsletters you would like to recieve</p>
 
-               <input type="checkbox" id="javascript" value="javascript">
-               <label for="javascript">javascript News</label>
-         </fieldset>
+            <input type="checkbox" id="html" value="html">
+            <label for="html">HTML News</label><br>
 
-         <fieldset>
-            <legend>Newsletter</legend>
+            <input type="checkbox" id="css" value="css">
+            <label for="css">CSS News</label><br>
+
+            <input type="checkbox" id="javascript" value="javascript">
+             <label for="javascript">javascript News</label>
+
+          </fieldset>
+
+          <fieldset>
+
+            <p>Newsletter format</p>
                <input type="radio" id="html-format" name="format" value="html">
                <label for="html-format">HTML</label><br>
 
                <input type="radio" id="plain-format" name="format" value="plain-text">
                <label for="plain-format">Plain Text</label><br>
-            </fieldset>
 
-         <fieldset>
-            <legend>Other topics you'd like to hear about</legend><br>
-             <textarea name="topics" id="topics"></textarea><br>
          </fieldset>
 
+         <fieldset>
+
+            <p>Other topics you'd like to hear about</p><br>
+            <textarea name="topics" id="topics"></textarea><br>
+
+         </fieldset>
+
+         
+         <button type="submit" class="signupbtn">Sign Up</button>
+
+         <footer>Copyright The Code Review</footer>
       </fieldset>
-
-      <button type="submit" class="signupbtn">Sign Up</button>
-
-      <footer>Copyright The Code Review</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    </form>
    
 </body>
