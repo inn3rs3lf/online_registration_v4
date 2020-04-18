@@ -85,7 +85,6 @@ legend {
    border-color: transparent;
    outline: none;
    background-color: rgb(238, 238, 238);
-   transition: height 1s ease-in-out;
 }
 
 input::placeholder {
@@ -98,7 +97,6 @@ input::placeholder {
 
 input:focus {
    border: solid rgb(65, 175, 166) 1px;
-   height: 5em;
 }
 .zip {
    width: 50%;
