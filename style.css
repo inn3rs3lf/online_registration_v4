@@ -167,10 +167,6 @@ footer {
       align-items: center;
    }
 
-   .form {
-      width: 60%;
-   }
-
    .zip {
       max-width: 25%;
    }
@@ -192,8 +188,18 @@ footer {
 
    .flex-info {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
    }
 
+   .label-input {
+      flex-grow: 1;
+      flex-basis: 75%
+   }
+
+   .label {
+      flex-basis: 25%;
+      align-self: center;
+   }
+   
    
 }
