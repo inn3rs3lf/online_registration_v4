@@ -171,9 +171,11 @@ footer {
       width: 60%;
    }
 
+   .zip {
+      max-width: 25%;
+   }
    fieldset {
       padding: 1em 0em;
-   
    }
 
    button {
