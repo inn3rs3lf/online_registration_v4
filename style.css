@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Merriweather', sans-serif;
+
+}
+
+header {
+   background: rgb(34, 44, 53);
+   height: 4.5em;
+}
+
+header h1 {
+   color: #fff;
+   font-family: 'Merriweather', serif;
+   text-transform: uppercase;
+   font-size: 1.3em;
+   text-align: center;
+   padding: 1.2em 1em;
+}
+
+.signup {
+   font-size: 0.9em;
+   height: 10em;
+   width: 90%;
+   border-bottom: solid black 4px;
+   margin: 0.3em auto;
+   text-align: center;
+}
+
+.signup h2 {
+   padding: 1.6em 0em 0.6em ;
+   font-size: 1.3em;
+   font-weight: bold;
+   
+}
+
+.signup p {
+   color: #C0C0C0;
+   line-height: 1.4em;
+}
+
+hr {
+   width: 90%;
+   margin: 4px;
+   margin: 0 auto;
+   border-top: 2px solid black;
+}
+
+fieldset {
+   border: none;
+   padding: 1em;
+   margin-top: 0.2em;
+   color: grey;
+}
+
+legend {
+   font-size: 1.2em;
+   padding-top: 1.3em;
+   padding-bottom: 0.4em;
+   color: black;
+}
+
+.label {
+   display: block;
+   font-size: 0.9em;
+   color:grey;
+   margin-bottom: 0.7em;
+   font-weight: lighter;
+}
+
+.label-input {
+   font-size: 0.8em;
+   margin-bottom: 1.8em;
+   width: 100%;
+   height: 4em;
+   border-radius: 3px;
+   border-color: transparent;
+   outline: none;
+   background-color: rgb(238, 238, 238);
+}
+
+input::placeholder {
+   color: rgb(189, 189, 189);
+   text-align: end;
+   padding-right: 2em;
+   font-style: italic;
+   font-size: 0.9em;
+}
+
+.zip {
+   width: 50%;
+}
+
+.select {
+   color: rgb(189, 189, 189);
+}
+
+/* Newsletter  */
+
+input[type=checkbox] {
+   margin-bottom: 1.5em;
+}
+
+input[type=radio] {
+   margin-bottom: 1.4em;
+}
+
+p {
+   margin-bottom: 1.4em;
+}
+
+
+button {
+  display: block;
+  width: 90%;
+  height: 5em;
+  margin: 0 auto;
+  background: blue;
+}
