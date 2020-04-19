@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -16,7 +17,7 @@
       <p>Get the latest news on how your code is doing right in your inbox</p>
    </div>
       
-   <form action="">
+   <form>
 
       <hr>
       <fieldset>
@@ -70,22 +71,22 @@
 
          <legend>Newsletter</legend>
 
-          <fieldset>
+          <section>
 
             <p>Slect the newsletters you would like to recieve</p>
 
-            <input type="checkbox" id="html" value="html">
+            <input type="checkbox" id="html" value="html" name="html">
             <label for="html">HTML News</label><br>
 
-            <input type="checkbox" id="css" value="css">
+            <input type="checkbox" id="css" value="css" name="css">
             <label for="css">CSS News</label><br>
 
-            <input type="checkbox" id="javascript" value="javascript">
-             <label for="javascript">javascript News</label>
+            <input type="checkbox" id="javascript" value="javascript" name="javascript">
+            <label for="javascript">javascript News</label>
 
-          </fieldset>
+          </section>
 
-          <fieldset>
+          <section>
 
             <p>Newsletter format</p>
                <input type="radio" id="html-format" name="format" value="html">
@@ -94,14 +95,14 @@
                <input type="radio" id="plain-format" name="format" value="plain-text">
                <label for="plain-format">Plain Text</label><br>
 
-         </fieldset>
+         </section>
 
-         <fieldset>
+         <section>
 
             <p>Other topics you'd like to hear about</p><br>
             <textarea name="topics" id="topics"></textarea><br>
 
-         </fieldset>
+         </section>
 
          
          <button type="submit" class="signupbtn">Sign Up</button>

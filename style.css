@@ -52,7 +52,8 @@ hr {
    border-top: 2px solid black;
 }
 
-fieldset {
+fieldset,
+section {
    border: none;
    padding: 1em;
    margin-top: 0.2em;
@@ -168,7 +169,8 @@ footer {
    .zip {
       max-width: 25%;
    }
-   fieldset {
+   fieldset,
+   section {
       padding: 1em 0em;
    }
 
