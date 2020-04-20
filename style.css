@@ -8,7 +8,7 @@
 }
 
 header {
-	background: rgb(34, 44, 53);
+	background: rgb(65, 175, 166);
 	height: 4.5em;
 }
 
@@ -94,6 +94,7 @@ input::placeholder {
 
 input:focus {
 	border: solid rgb(65, 175, 166) 1px;
+	transition-duration: 3s;
 }
 .zip {
 	width: 50%;
@@ -121,6 +122,11 @@ textarea {
 	border: transparent;
 	margin-bottom: 1em;
 	margin-top: 1em;
+}
+
+textarea::placeholder {
+	padding: 1em;
+	color: rgb(189, 189, 189);
 }
 
 button {
